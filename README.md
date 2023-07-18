@@ -21,7 +21,7 @@ Read the OpenFlow specification to understand the recorded data:
    OFPPS_LIVE = 1 << 2, // Live for Fast Failover Group.  };   ``
     
 '
-     the output of the folloing function when a link goes down, 
+    
      For exmple, to forcr a link down :
      mininet> sh  ifconfig s1-eth2 down
    
