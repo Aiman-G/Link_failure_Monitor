@@ -10,8 +10,7 @@ Read the OpenFlow specification to understand the recorded data:
 '''
     From open flow sepcification : 
 
-    /* Current state of the physical port. These are not configurable from
-   * the controller.
+    /* Current state of the physical port. These are not configurable fromthe controller.
    
    enum ofp_port_state {
    OFPPS_LINK_DOWN = 1 << 0, /* No physical link present. */
