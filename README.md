@@ -18,9 +18,7 @@ Read the OpenFlow specification to understand the recorded data:
    
    FPPS_BLOCKED = 1 << 1, // Port is blocked 
    
-   OFPPS_LIVE = 1 << 2, // Live for Fast Failover Group. 
-   
-    };   ``
+   OFPPS_LIVE = 1 << 2, // Live for Fast Failover Group.  };   ``
     
 '
      the output of the folloing function when a link goes down, 
