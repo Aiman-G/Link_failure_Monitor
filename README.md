@@ -25,7 +25,7 @@ Read the OpenFlow specification to understand the recorded data:
      For exmple, to force a link down :
      mininet> sh  ifconfig s1-eth2 down
    
-     After this command the link goes down on two connnected ports ( the ports that are the ends of a link):
+     After this command the link goes down on two connnected ports ( the ports at the ends of a link):
      
      OFPPortStatus received: reason=MODIFY desc=OFPPort(port_no=2,hw_addr='5a:b2:00:89:a2:9a',name=b's1-eth2',config=0,state=0,curr=2112,advertised=0,supported=0,peer=0,curr_speed=10000000,max_speed=0)
      OFPPortStatus received: reason=MODIFY desc=OFPPort(port_no=2,hw_addr='5a:b2:00:89:a2:9a',name=b's1-eth2',config=1,state=1,curr=2112,advertised=0,supported=0,peer=0,curr_speed=10000000,max_speed=0)
