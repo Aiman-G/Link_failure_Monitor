@@ -22,7 +22,7 @@ Read the OpenFlow specification to understand the recorded data:
     
 '
     
-     For exmple, to forcr a link down :
+     For exmple, to force a link down :
      mininet> sh  ifconfig s1-eth2 down
    
      After this command the link goes down on two connnected ports:
